@@ -13,11 +13,15 @@ models:
             - not_null 
 
           - name: products_id
+            tests : 
+            - not_null 
 
           - name: qty
-
+            
           - name: turnover
-
+            tests : 
+            - not_null 
           - name: purchase_cost
-
+            tests : 
+            - not_null 
           - name: margin
